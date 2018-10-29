@@ -23,7 +23,7 @@ With this approach:
 - per-implementation codebase will be much smaller since it will contain only components that are overwritten
 - We can remove huge amount of complex business logic responsible for handle theme-specific stuff right now
 - we can easly make theme fallbacks (useful in multistore)
-- thanks to global registration or components we dont need to import them and put inside 'components' object which means faster development, easier changes in theme structure and smaller bundles
+- thanks to global registration of components we dont need to import them in other components and put inside 'components' object which means faster development, easier changes in theme structure and smaller bundles
 ## Project setup
 ```
 yarn install
