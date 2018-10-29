@@ -1,8 +1,10 @@
 import Vue from 'vue';
-import App from './App.vue';
+import Theme from './theme'
 
 Vue.config.productionTip = false;
 
+Theme.register()
+
 new Vue({
-  render: (h) => h(App),
+  render: (h) => h(Theme.entry),
 }).$mount('#app');
