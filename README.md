@@ -22,6 +22,7 @@ With this approach:
 - themes are finally easly upgradable
 - per-implementation codebase will be much smaller since it will contain only components that are overwritten
 - We can remove huge amount of complex business logic responsible for handle theme-specific stuff right now
+- we can easly make theme fallbacks (useful in multistore)
 
 ## Project setup
 ```
